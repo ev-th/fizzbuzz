@@ -12,4 +12,12 @@ describe 'fizzbuzz' do
   it 'returns "fizzbuzz" for the number 15' do
     expect(15.fizzbuzz).to eq 'fizzbuzz'
   end
+  
+  it 'returns 1 for the number 1' do
+    expect(1.fizzbuzz).to eq 1
+  end
+  
+  it 'returns 11 for the number 11' do
+    expect(11.fizzbuzz).to eq 11
+  end
 end
