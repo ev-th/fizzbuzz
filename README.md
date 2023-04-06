@@ -8,7 +8,7 @@ A file to load into irb that adds a fizzbuzz method to the Integer class. The me
 
 ## Usage
 
-`irb -r './lib/fizzbuzz`
+`irb -r './lib/fizzbuzz'`
 
 ## Running tests
 
